@@ -101,7 +101,7 @@ pattern name   => [qw (net IPv6), "-sep=$IPv6defsep", "-style=HeX"],
                 for (my $r = 6 - $l; $r >= 0; $r --) {
                     #
                     # $l is the number of blocks left of the double colon,
-                    # $r is the number of blocks left of the double colon,
+                    # $r is the number of blocks right of the double colon,
                     # $m is the number of omitted blocks
                     #
                     my $m    = 8 - $l - $r;
